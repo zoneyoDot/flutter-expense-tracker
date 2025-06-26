@@ -1,4 +1,4 @@
-import 'package:centsiblefinal/utils/quicksort_expenses.dart';
+// import 'package:centsiblefinal/utils/quicksort_expenses.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import '../models/expense.dart';
@@ -95,7 +95,7 @@ class _BudgetsPageState extends State<BudgetsPage> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const Text(
-                      "📌 Recommended Expenses:",
+                      "List of Recommended Expenses:",
                       style: TextStyle(
                         fontSize: 16,
                         fontWeight: FontWeight.bold,

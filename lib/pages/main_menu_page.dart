@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'add_expense_page.dart';
 import 'records_page.dart';
 import 'budget_page.dart';
-import 'analysis_page.dart';
+// import 'analysis_page.dart'; // No longer needed
 
 class MainMenuPage extends StatefulWidget {
   const MainMenuPage({super.key});
@@ -16,10 +16,8 @@ class _MainMenuPageState extends State<MainMenuPage> {
 
   final List<Widget> _pages = const [
     RecordsPage(),
-    Center(child: Text('Analysis Page')),
     AddExpensePage(),
-    const BudgetsPage(),
-    Center(child: Text('User Page')),
+    BudgetsPage(),
   ];
 
   void _onItemTapped(int index) {
@@ -46,10 +44,6 @@ class _MainMenuPageState extends State<MainMenuPage> {
             label: 'Records',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.bar_chart),
-            label: 'Analysis',
-          ),
-          BottomNavigationBarItem(
             icon: Icon(Icons.add_circle_outline),
             label: 'Add',
           ),
@@ -57,7 +51,6 @@ class _MainMenuPageState extends State<MainMenuPage> {
             icon: Icon(Icons.account_balance_wallet),
             label: 'Budgets',
           ),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'User'),
         ],
       ),
     );

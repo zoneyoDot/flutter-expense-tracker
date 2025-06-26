@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hive_flutter/hive_flutter.dart';
+// import 'package:hive_flutter/hive_flutter.dart';
 
 import 'welcome_page.dart';
-import '../models/settings.dart';
+// import '../models/settings.dart';
 
 
 class SplashPage extends StatefulWidget {

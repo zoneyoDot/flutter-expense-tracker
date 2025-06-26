@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'main_menu_page.dart';
-import 'records_page.dart';
+// import 'records_page.dart';
 
 class WelcomePage extends StatefulWidget {
   const WelcomePage({super.key});
@@ -30,7 +30,7 @@ class _WelcomePageState extends State<WelcomePage> {
       context: context,
       builder: (_) => AlertDialog(
         title: const Text("Terms and Conditions"),
-        content: const Text("By using this app, you agree to be broke responsibly."),
+        content: const Text("uhhhhhhhhhhhhhhhhhhhhhhhhhhh."),
         actions: [
           TextButton(onPressed: () => Navigator.pop(context), child: const Text("Close"))
         ],
@@ -48,7 +48,7 @@ class _WelcomePageState extends State<WelcomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
-                "Welcome to Centsible 👋",
+                "Welcome to Centsible!",
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 20),

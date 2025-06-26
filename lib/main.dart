@@ -4,7 +4,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:path_provider/path_provider.dart';
 
 import 'models/expense.dart';
-import 'pages/welcome_page.dart';
+// import 'pages/welcome_page.dart';
 import 'models/settings.dart';
 
 void main() async {

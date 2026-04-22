@@ -1,6 +1,6 @@
 # Centsible
 
-
+A mobile budgeting app coded in Visual Studio Code. Uses Flutter.
 
 ## Getting Started
 
